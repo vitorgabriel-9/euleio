@@ -14,6 +14,8 @@ body {
     justify-content: space-between;
 }
 
+/* Header */
+
 header {
     background-color: beige;
     border: 1px solid #000;
@@ -26,16 +28,39 @@ img#icon {
     width: 5em;
 }
 
+/* Main */
+
+div#area-estatisticas {
+    display: grid;
+    grid-template-columns: 46% 27% 27%;
+    justify-content: space-between;
+}
+
+div#area-estatisticas > div {
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    margin: 5px;
+    font-size: 0.9em;
+}
+
+/* Footer */
+
 footer {
     display: flex;
     justify-content: space-around;
-    background-color: #222;
+    background-color: #111;
     padding: 10px;
 }
 
-span.navegacao, a.navegacao {
-    color: #FFF;
+a.navegacao, p.navegacao {
+    color: #AFB9FF;
     text-decoration: none;
-    font-size: 1em;
+    font-size: 1.2em;
+    font-weight: lighter;
+}
+
+p.navegacao {
+    color: #FFF;
     font-weight: bolder;
 }
