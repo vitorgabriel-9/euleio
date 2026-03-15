@@ -32,7 +32,7 @@ img#icon {
 
 div#area-estatisticas {
     display: grid;
-    grid-template-columns: 46% 27% 27%;
+    grid-template-columns: 33.3% 33.3% 33.3%;
     justify-content: space-between;
 }
 
@@ -41,7 +41,7 @@ div#area-estatisticas > div {
     border: 1px solid #000;
     border-radius: 3px;
     margin: 5px;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
 /* Footer */
@@ -54,13 +54,14 @@ footer {
 }
 
 a.navegacao, p.navegacao {
-    color: #AFB9FF;
+    color: #ffffffee;
     text-decoration: none;
     font-size: 1.2em;
     font-weight: lighter;
 }
 
 p.navegacao {
-    color: #FFF;
+    color: #fff;
     font-weight: bolder;
+    text-decoration: overline;
 }
