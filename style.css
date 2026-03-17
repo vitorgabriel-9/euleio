@@ -30,6 +30,15 @@ img#icon {
 
 /* Main */
 
+div#area-perfil {
+    display: flex;
+    align-items: center;
+}
+
+img#foto-perfil {
+    width: 100px;
+}
+
 div#area-estatisticas {
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
