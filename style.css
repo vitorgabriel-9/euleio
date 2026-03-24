@@ -28,31 +28,6 @@ img#icon {
     width: 5em;
 }
 
-/* Main */
-
-div#area-perfil {
-    display: flex;
-    align-items: center;
-}
-
-img#foto-perfil {
-    width: 100px;
-}
-
-div#area-estatisticas {
-    display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
-    justify-content: space-between;
-}
-
-div#area-estatisticas > div {
-    padding: 5px;
-    border: 1px solid #000;
-    border-radius: 3px;
-    margin: 5px;
-    font-size: 0.8em;
-}
-
 /* Footer */
 
 footer {

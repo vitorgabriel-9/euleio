@@ -1,0 +1,19 @@
+/* Perfil */
+
+div#area-perfil {
+    padding: 15px;
+}
+
+div#area-estatisticas {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    justify-content: space-between;
+}
+
+div#area-estatisticas > div {
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    margin: 5px;
+    font-size: 0.8em;
+}
